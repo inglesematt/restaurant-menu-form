@@ -1,10 +1,11 @@
 <template>
   <div class="about">
-    <h1>This is a form</h1>
-    <p>Fill this in you!</p>
+    <h1>Contact</h1>
+    <p>For all enquiries, please email us using the form below:</p>
   </div>
 
     <Form />
+    
 </template>
 
 
@@ -23,6 +24,7 @@ export default {
 body {
   margin: 0;
   background: #eee;
+  cursor: default;
 }
 
 </style>

@@ -2,19 +2,13 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link :to="{ name: 'Menu'}">Menu</router-link> |
-    <router-link :to="{ name: 'About'}">Form</router-link>
+    <router-link :to="{ name: 'About'}">Contact</router-link>
   </div>
   <router-view/>
-  <Form />
 </template>
 
 <script>
-import Form from './components/Form.vue'
 
-export default {
-    name: 'App',
-    components: { Form }
-}
 </script>
 
 
